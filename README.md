@@ -1176,7 +1176,7 @@ function library:Evil(text,text2,logo)
 				Text.ZIndex = 16
 				Text.Font = Enum.Font.GothamBold
 				Text.Text = Name
-				Text.TextColor3 = Color3.fromRGB(77, 178, 250)
+				Text.TextColor3 = Color3.fromRGB(255, 255, 255)
 				Text.TextSize = 14.000
 				Text.TextTransparency = 0
 				Text.TextXAlignment = Enum.TextXAlignment.Left
@@ -1225,12 +1225,12 @@ function library:Evil(text,text2,logo)
 						Tgo = true
                         pcall(callback,true)
 						MainToggle_3:TweenPosition(UDim2.new(0, 235, 0.5, 0),"In","Quad",0.1,true)
-						MainToggle_3.BackgroundColor3 = Color3.fromRGB(77, 178, 250)
+						MainToggle_3.BackgroundColor3 = Color3.fromRGB(0, 255, 0)
 					else
 						Tgo = false
                         pcall(callback,false)
 						MainToggle_3:TweenPosition(UDim2.new(0, 200, 0.5, 0),"In","Quad",0.1,true)
-						MainToggle_3.BackgroundColor3 = Color3.fromRGB(77, 178, 250)
+						MainToggle_3.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
 					end
 				end)
 				
