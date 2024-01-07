@@ -1229,7 +1229,7 @@ function library:Evil(text,text2,logo)
 					else
 						Tgo = false
                         pcall(callback,false)
-						MainToggle_3:TweenPosition(UDim2.new(0, 200, 0.5, 0),"In","Quad",0.1,true)
+						MainToggle_3:TweenPosition(UDim2.new(77, 178, 250),"In","Quad",0.1,true)
 						MainToggle_3.BackgroundColor3 = Color3.fromRGB(77, 178, 250)
 					end
 				end)
