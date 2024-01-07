@@ -1176,7 +1176,7 @@ function library:Evil(text,text2,logo)
 				Text.ZIndex = 16
 				Text.Font = Enum.Font.GothamBold
 				Text.Text = Name
-				Text.TextColor3 = Color3.fromRGB(255, 255, 255)
+				Text.TextColor3 = Color3.fromRGB(77, 178, 250)
 				Text.TextSize = 14.000
 				Text.TextTransparency = 0
 				Text.TextXAlignment = Enum.TextXAlignment.Left
