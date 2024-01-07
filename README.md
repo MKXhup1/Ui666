@@ -1225,12 +1225,12 @@ function library:Evil(text,text2,logo)
 						Tgo = true
                         pcall(callback,true)
 						MainToggle_3:TweenPosition(UDim2.new(0, 235, 0.5, 0),"In","Quad",0.1,true)
-						MainToggle_3.BackgroundColor3 = Color3.fromRGB(0, 255, 0)
+						MainToggle_3.BackgroundColor3 = Color3.fromRGB(77, 178, 250)
 					else
 						Tgo = false
                         pcall(callback,false)
 						MainToggle_3:TweenPosition(UDim2.new(0, 200, 0.5, 0),"In","Quad",0.1,true)
-						MainToggle_3.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+						MainToggle_3.BackgroundColor3 = Color3.fromRGB(77, 178, 250)
 					end
 				end)
 				
@@ -1238,7 +1238,7 @@ function library:Evil(text,text2,logo)
 					Tgo = true
                     pcall(callback,true)
 					MainToggle_3:TweenPosition(UDim2.new(0, 235, 0.5, 0),"In","Quad",0.1,true)
-					MainToggle_3.BackgroundColor3 = Color3.fromRGB(0, 255, 0)
+					MainToggle_3.BackgroundColor3 = Color3.fromRGB(77, 178, 250)
 				end
 
 				return ToglFunc
