@@ -1157,7 +1157,7 @@ function library:Evil(text,text2,logo)
 
 				MainToggle.Name = "MainToggle"
 				MainToggle.Parent = SectionContainer
-				MainToggle.BackgroundColor3 = Color3.fromRGB(22, 22, 22)
+				MainToggle.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 				MainToggle.BackgroundTransparency = 0.700
 				MainToggle.BorderSizePixel = 0
 				MainToggle.ClipsDescendants = true
@@ -1184,7 +1184,7 @@ function library:Evil(text,text2,logo)
 				MainToggle_2.Name = "MainToggle"
 				MainToggle_2.Parent = MainToggle
 				MainToggle_2.AnchorPoint = Vector2.new(0.5, 0.5)
-				MainToggle_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+				MainToggle_2.BackgroundColor3 = Color3.fromRGB(25, 25, 25)
 				MainToggle_2.ClipsDescendants = true
 				MainToggle_2.Position = UDim2.new(0, 215, 0.5, 0)
 				MainToggle_2.Size = UDim2.new(0, 35, 0, 5)
@@ -1209,7 +1209,7 @@ function library:Evil(text,text2,logo)
 
 				TextButton.Name = ""
 				TextButton.Parent = MainToggle
-				TextButton.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+				TextButton.BackgroundColor3 = Color3.fromRGB(25, 25, 25)
 				TextButton.BackgroundTransparency = 1.000
 				TextButton.BorderSizePixel = 0
 				TextButton.Size = UDim2.new(1, 0, 1, 0)
